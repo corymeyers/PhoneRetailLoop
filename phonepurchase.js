@@ -27,6 +27,7 @@ function monetize(price) {
 // }
 //no idea why this breaks my loop, probably a scope subtelty that I'm missing
 
+
 do {
   accountBalance -= parseInt(price);
   console.log("Your total comes to " + newPrice + ". Your remaining account balance is $" + accountBalance)
